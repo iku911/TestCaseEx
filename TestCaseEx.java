@@ -23,16 +23,18 @@ public class TestCaseEx {
     }
     @AfterMethod
     public void CloseBrowser(){
+
         driver.close();
     }
-    @Test(priority=0,enabled = false)
+
+    @Test(priority=0,enabled = true)
     public void TestCase01(){
     driver.findElement(By.xpath("//img[@class='logo img-responsive']"));
 
 
     }
     //Validate SignIn Button
-    @Test(priority = 1,enabled = false)
+    @Test(priority = 1,enabled = true)
     public void TestCase02(){
         driver.findElement(By.xpath("//a[@class='login']")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -43,7 +45,7 @@ public class TestCaseEx {
         
     }
     //Login with Valid ID&Pass
-    @Test(priority = 2,enabled = false)
+    @Test(priority = 2,enabled = true)
     public void TestCase03(){
         driver.findElement(By.xpath("//a[@class='login']")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -57,7 +59,7 @@ public class TestCaseEx {
 
     }
     //LogIn with invalid ID or Password
-    @Test(priority = 3,enabled = false)
+    @Test(priority = 3,enabled = true)
     public void Testcase04(){
         driver.findElement(By.xpath("//a[@class='login']")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
