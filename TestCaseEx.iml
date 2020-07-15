@@ -10,6 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
+<<<<<<< HEAD
           <root url="file://$USER_HOME$/Desktop/selenium" />
         </CLASSES>
         <JAVADOC />
@@ -18,12 +19,23 @@
         </SOURCES>
         <jarDirectory url="file://$USER_HOME$/Desktop/selenium" recursive="false" />
         <jarDirectory url="file://$USER_HOME$/Desktop/selenium" recursive="false" type="SOURCES" />
+=======
+          <root url="file://$USER_HOME$/Downloads/selenium-java-3.141.59/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-3.141.59/libs" recursive="false" />
+>>>>>>> origin/master
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
+<<<<<<< HEAD
           <root url="jar://$USER_HOME$/Desktop/TestNG/testng-6.14.3.jar!/" />
+=======
+          <root url="jar://$USER_HOME$/Downloads/testng-6.14.3.jar!/" />
+>>>>>>> origin/master
         </CLASSES>
         <JAVADOC />
         <SOURCES />
