@@ -95,7 +95,7 @@ public class TestCaseEx {
 
         String AccountCreated = driver.findElement(By.xpath("//h1[@class='page-heading']")).getText();
         System.out.println("Account Created Successful"+ AccountCreated);
-        Assert.assertEquals(AccountCreated,"MY ACCOUNT");
+        Assert.assertEquals(AccountCreated,"Test by Shampa");
 
 
     }
